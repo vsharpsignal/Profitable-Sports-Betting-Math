@@ -20,7 +20,7 @@ Line #8 shows the importance of CALIBRATION. The first term in the box is the pr
 ![Variance of profiting](backtest_02_24_25.png)
 
 
-Above I have an image from a backtested model that shows the actual change in bankroll from applying a betting model I made in python (See nba model github). Notice that there are both drawdowns AND upswings in the net change in bankroll. Why is this, if we are doing +EV betting?? The answer is variance. Variance is the irreducible amount of randomness that is embedded in any finite set of bets. This means that sometimes we will have stretches of bets where the bankroll decreases (drawdowns) and other stretches where it increases (upswings). Luckily If we are truly betting with an edge then the quantity and magnitude of upswings will overcome the quantity and magnitude of drawdowns allowing us to make profits long-term. This is why sports betting is often referred to as “A patient man’s game.” 
+Above I have an image from a backtested model that shows the actual change in bankroll from applying a betting model I made in python (See nba model github). Notice that there are both drawdowns AND upswings in the net change in bankroll. Why is this, if we are doing +EV betting?? The answer is variance. Variance is the irreducible amount of randomness that is embedded in any finite set of bets. This means that sometimes we will have stretches of bets where the bankroll decreases (drawdowns) and other stretches where it increases (upswings). Luckily if we are truly betting with an edge then the quantity and magnitude of upswings will overcome the quantity and magnitude of drawdowns allowing us to make profits long-term. This is why sports betting is often referred to as “A patient man’s game.” 
 
 ## GLOSSARY:
 

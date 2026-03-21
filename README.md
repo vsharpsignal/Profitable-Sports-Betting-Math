@@ -25,11 +25,11 @@ Above I have an image from a backtested model that shows the actual change in ba
 ## GLOSSARY:
 
 #Calibration:<br>  
-Agreement between a bettor’s degree of confidence/certainty/probability and their empirical win proportion/ win frequency. 
+Agreement between a bettor’s degree of confidence/certainty/probability and their empirical win proportion/ win frequency. <br>
 #Value:<br>  
-A bet where the handicapped probability is greater than the probability implied by your sportsbook’s odds. 
+A bet where the handicapped probability is greater than the probability implied by your sportsbook’s odds. <br>
 #Handicap:<br>  
-The believed probability of a bet. Handicapping is the process of finding that probability.
+The believed probability of a bet. Handicapping is the process of finding that probability.<br>
 #robability:<br>  
 Number between 0 and 1 that corresponds to a bettor's degree of certainty in one outcome or another. 
 #Empirical Win Proportion:<br>  

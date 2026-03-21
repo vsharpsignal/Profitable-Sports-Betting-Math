@@ -39,4 +39,6 @@ Handicapping process that allows a bettor to find value.\
 Variance:\
 The irreducible unavoidable randomness found in any finite number of bets that a bettor must overcome through having an edge and being calibrated.\
 Vigorish:\
-The tax/fee that sportsbooks embed in their provided odds that a bettor must overcome through having an edge. 
+The tax/fee that sportsbooks embed in their provided odds that a bettor must overcome through having an edge.\
+\
+Disclaimer/Warning: This information does NOT serve as formal financial advice and it is not intended to entice, persuade or influence anyone to gamble/sports bet. Please bet responsibly.

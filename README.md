@@ -24,9 +24,9 @@ Above I have an image from a backtested model that shows the actual change in ba
 
 ## GLOSSARY:
 
-###Calibration:\
+Calibration:\
 Agreement between a bettor’s degree of confidence/certainty/probability and their true empirical win proportion/ win frequency.\
-###Value:\
+Value:\
 A bet where the handicapped probability is greater than the probability implied by your sportsbook’s odds.\
 Handicap:\
 The believed or calculate probability of a bet. Handicapping is the process of finding that probability.\

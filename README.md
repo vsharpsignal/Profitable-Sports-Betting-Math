@@ -24,19 +24,19 @@ Above I have an image from a backtested model that shows the actual change in ba
 
 ## GLOSSARY:
 
-##Calibration:<br>
+#Calibration:<br>
 Agreement between a bettor’s degree of confidence/certainty/probability and their empirical win proportion/ win frequency. 
-##Value:<br>
+#Value:<br>
 A bet where the handicapped probability is greater than the probability implied by your sportsbook’s odds. 
-##Handicap:
+#Handicap:<br>
 The believed probability of a bet. Handicapping is the process of finding that probability.
-###robability:
+#robability:<br>
 Number between 0 and 1 that corresponds to a bettor's degree of certainty in one outcome or another. 
-##Empirical Win Proportion:
+#Empirical Win Proportion:<br>
 The proportion of bets won at a FIXED set of odds (e.g number of bets won out of ALL bets placed on -200 odds).
-##Edge:
+#Edge:<br>
 Handicapping process that allows a bettor to find value. 
-##Variance:
+#Variance:<br>
 The irreducible unavoidable randomness found in any finite number of bets that a bettor must overcome through having an edge and being calibrated. 
-##Vigorish:
+#Vigorish:<br>
 The tax/fee that sportsbooks embed in their provided odds that a bettor must overcome through having an edge. 

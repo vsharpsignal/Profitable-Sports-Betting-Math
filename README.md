@@ -9,7 +9,7 @@ The Handicapped (Assigned) Probability of a Win (line 1) is the probability, we 
 
 ## The Math of Profiting
 
-![+EV betting proof](plus_ev_betting_math.png)
+![How +EV betting works](plus_ev_betting_math.png)
 
 #As mentioned earlier if our delta bankroll (  ) is greater than zero we are profiting. Above I have 10 lines of math that show us how we profit. Rather than going through each line I would like to talk about a few key conclusions the math shows us. Line #1 comes from calculating and summing the percentage of bet returned on a win vs a loss. In sports betting if you win the bet your following change in bankroll comes from the percentage of the bet returned on a win (ie the first term in line #1) while if you lose a bet your change in bankroll comes you losing the entire amount that you bet (the second term in line #1). For any finite number of bets we can calculate our net change in bankroll by summing these gains and losses. That is how we derive line #1. From here, everything else follows from algebra. Jumping down to line #7, here we divide the net change in bankroll by N (the number of bets placed). And we show that this fraction can be made greater than zero. This is crucial to being a profitable bettor because it highlights the following: If and ONLY IF a bettor truly has an edge relative the odds they are offered by their sportsbook, can a bettor expect their bankroll to grow the more they bet. This is because on average each bet contributes to their net gain over a large enough number of bets (ie N becoming large). 
 
@@ -22,15 +22,21 @@ Line #8 shows the importance of CALIBRATION. The first term in the box is the pr
 
 Above I have an image from a backtested model that shows the actual change in bankroll from applying a betting model I made in python (See nba model github). Notice that there are both drawdowns AND upswings in the net change in bankroll. Why is this, if we are doing +EV betting?? The answer is variance. Variance is the irreducible amount of randomness that is embedded in any finite set of bets. This means that sometimes we will have stretches of bets where the bankroll decreases (drawdowns) and other stretches where it increases (upswings). Luckily If we are truly betting with an edge then the quantity and magnitude of upswings will overcome the quantity and magnitude of drawdowns allowing us to make profits long-term. This is why sports betting is often referred to as “The patient man’s game”. 
 
-## GLOSSARY:  
+## GLOSSARY:\
 
 Calibration:\
-Agreement between a bettor’s degree of confidence/certainty/probability and their true empirical win proportion/ win frequency.  
+Agreement between a bettor’s degree of confidence/certainty/probability and their true empirical win proportion/ win frequency. 
 Value:\
 A bet where the handicapped probability is greater than the probability implied by your sportsbook’s odds.  
-Handicap:The believed probability of a bet. Handicapping is the process of finding that probability.  
-Probability:Number between 0 and 1 that corresponds to a bettor's degree of certainty in one outcome or another.  
-Empirical Win Proportion:The proportion of bets won at a FIXED set of odds (e.g number of bets won out of ALL bets placed on -200 odds).  
-Edge:Handicapping process that allows a bettor to find value.  
-Variance:The irreducible unavoidable randomness found in any finite number of bets that a bettor must overcome through having an edge and being calibrated.  
-Vigorish: The tax/fee that sportsbooks embed in their provided odds that a bettor must overcome through having an edge. 
+Handicap:\
+The believed probability of a bet. Handicapping is the process of finding that probability.  
+Probability:\
+Number between 0 and 1 that corresponds to a bettor's degree of certainty in one outcome or another.  
+Empirical Win Proportion:\
+The proportion of bets won at a FIXED set of odds (e.g number of bets won out of ALL bets placed on -200 odds).  
+Edge:\
+Handicapping process that allows a bettor to find value.  
+Variance:\
+The irreducible unavoidable randomness found in any finite number of bets that a bettor must overcome through having an edge and being calibrated.  
+Vigorish:\
+The tax/fee that sportsbooks embed in their provided odds that a bettor must overcome through having an edge. 

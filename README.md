@@ -1,4 +1,4 @@
-# Plus-EV-betting-Math
+# The Math of +EV Betting
 
 
 ## In this Repository I present the underlying math that constitutes TRUE positive expected value betting. The concept of plus EV betting is commonly talked about amongst sports bettors and is a popular strategy for generating income from sports betting. Unfortunately many bettors fail to ever grasp the true underlying math that makes sports betting profitable. Due to this lack of understanding many bettors "sour" on +EV betting after a short time because they fail to understand the underlying objective. Here I give a short yet thorough analysis of +EV betting in the context of moneyline (selecting winners outright) betting assuming a flat betting strategy. 

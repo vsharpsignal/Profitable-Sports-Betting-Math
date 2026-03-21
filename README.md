@@ -22,11 +22,13 @@ Line #8 shows the importance of CALIBRATION. The first term in the box is the pr
 
 Above I have an image from a backtested model that shows the actual change in bankroll from applying a betting model I made in python (See nba model github). Notice that there are both drawdowns AND upswings in the net change in bankroll. Why is this, if we are doing +EV betting?? The answer is variance. Variance is the irreducible amount of randomness that is embedded in any finite set of bets. This means that sometimes we will have stretches of bets where the bankroll decreases (drawdowns) and other stretches where it increases (upswings). Luckily If we are truly betting with an edge then the quantity and magnitude of upswings will overcome the quantity and magnitude of drawdowns allowing us to make profits long-term. This is why sports betting is often referred to as “The patient man’s game”. 
 
-## GLOSSARY:
+## GLOSSARY:  
 
 Calibration:Agreement between a bettor’s degree of confidence/certainty/probability and their true empirical win proportion/ win frequency.  
 Value:A bet where the handicapped probability is greater than the probability implied by your sportsbook’s odds.  
-#Handicap:The believed probability of a bet. Handicapping is the process of finding that probability.
-#robability:Number between 0 and 1 that corresponds to a bettor's degree of certainty in one outcome or another. 
-#Empirical Win Proportion:The proportion of bets won at a FIXED set of odds (e.g number of bets won out of ALL bets placed on -200 odds).
-Edge:Handicapping process that allows a bettor to find value. Variance:The irreducible unavoidable randomness found in any finite number of bets that a bettor must overcome through having an edge and being calibrated. Vigorish: The tax/fee that sportsbooks embed in their provided odds that a bettor must overcome through having an edge. 
+Handicap:The believed probability of a bet. Handicapping is the process of finding that probability.  
+Probability:Number between 0 and 1 that corresponds to a bettor's degree of certainty in one outcome or another.  
+Empirical Win Proportion:The proportion of bets won at a FIXED set of odds (e.g number of bets won out of ALL bets placed on -200 odds).  
+Edge:Handicapping process that allows a bettor to find value.  
+Variance:The irreducible unavoidable randomness found in any finite number of bets that a bettor must overcome through having an edge and being calibrated.  
+Vigorish: The tax/fee that sportsbooks embed in their provided odds that a bettor must overcome through having an edge. 

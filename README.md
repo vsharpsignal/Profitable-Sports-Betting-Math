@@ -22,18 +22,29 @@ Line #8 shows the importance of CALIBRATION. The first term in the box is the pr
 
 Above I have an image from a backtested model that shows the actual change in bankroll from applying a betting model I made in python (See nba model github). Notice that there are both drawdowns AND upswings in the net change in bankroll. Why is this, if we are doing +EV betting?? The answer is variance. Variance is the irreducible amount of randomness that is embedded in any finite set of bets. This means that sometimes we will have stretches of bets where the bankroll decreases (drawdowns) and other stretches where it increases (upswings). Luckily if we are truly betting with an edge then the quantity and magnitude of upswings will overcome the quantity and magnitude of drawdowns allowing us to make profits long-term. This is why sports betting is often referred to as “A patient man’s game.” 
 
+# The Vigorish/Juice 
+Most sports bettors are aware of the “fee”/ “tax” that is attached to each side of a bet at a sportsbook. For example a standard -110 line on a spread bet means the sportsbooks return $1.00 for every $1.10 risked on either side of a spread. This computes to a 90.91% return on risk (ROR) embedding a 4.76% vigorish fee which is the same cost embedded in a +200 underdog facing a -250 favorite. As the vigorish increases so does S for either side of a bet in the math above. Thus profiting becomes more difficult as the vig increases. While seemingly negligible, the incremental difference between -105, -110,-115 etc compounds greatly over a large number of bets. (To see this simply plug in these respective implied probabilities into line 9 above to calculate the difference of amount gained per bet under different odds). 
+
+# The Efficient Market Hypothesis in Sports Betting
+In the context of sports betting the efficient market hypothesis posits that the odds offered by the sportsbook(s) is/are always optimally efficient implying that we as gamblers, and handicappers cannot derive a more calibrated or “more correct” degree of certainty than the market (ie sportsbooks’ odds). In other words there are no inefficiencies for us as bettors to exploit. Mathematically this looks like Pr(W =1) converging to a P < S (due to the vigorish) rather than a P > S in line 10 above. This hypothesis, while theoretically plausible, is neither a mathematical nor empirical law and simply serves as an accepted framework for why the overwhelming majority of sports bettors do indeed lose money long-term. When some people claim “you cannot win money betting sports” this is the reason they are (often unknowingly) referring to. Again, handicapping is the art of overcoming the vigorish by deriving a calibrated probability that is more confident or more correct than what is implied by the odds found in the market for one side of a bet or another. 
+
+# The Difficulty of Good Handicapping.
+In the above paragraphs I somewhat skipped over talking about the actual difficulty of deriving a calibrated probability that we assign to an outcome that allows us to profit long-term (i.e. finding Pr(W = 1)). So just how difficult is good handicapping? The answer is - it varies. Some niche markets have plenty of inefficiencies that an astute bettor can easily exploit with very little effort such that even just observational handicapping will suffice to profit, while some other markets are tremendously difficult and require large databases, advanced statistical analysis, software, non-public information and an extremely deep understanding of the sport’s nuances to handicap successfully (ie NFL Playoffs, March Madness Final Four Winners, Primetime Vegas Boxing Matchups, MLB World Series etc). 
+
+
+
 ## GLOSSARY:
 
 Calibration:\
 Agreement between a bettor’s degree of confidence/certainty/probability and their true empirical win proportion/ win frequency.\
 Value:\
 A bet where the handicapped probability is greater than the probability implied by your sportsbook’s odds.\
-Handicap:\
-The believed or calculate probability of a bet. Handicapping is the process of finding that probability.\
+Handicapping:\
+The process of finding a calibrated probability of each outcome of a sporting event..\
 Probability:\
 Number between 0 and 1 that corresponds to a bettor's degree of certainty in one outcome or another.\
 Empirical Win Proportion:\
-The proportion of bets won at a FIXED set of odds (e.g number of bets won out of ALL bets placed on -200 odds).\
+The proportion of bets won at a FIXED set of odds (e.g. number of bets won out of ALL bets placed on -200 odds).\
 Edge:\
 Handicapping process that allows a bettor to find value.\
 Variance:\
